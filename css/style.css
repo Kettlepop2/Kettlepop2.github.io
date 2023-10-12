@@ -6,7 +6,7 @@ body {
 
 
 #navbar {
-    background-color: #467370;
+    background-color: black;
     outline: none;
 }
 
@@ -15,7 +15,6 @@ body {
 
     #navbar .nav-link {
         transition: none;
-        padding: 2rem 1.5rem;
         font-size: large;
         color: rgba(21, 255, 0, 0.75);
     }
@@ -69,11 +68,11 @@ body {
 
     .about-section {
         padding-top: 10rem;
-        text-align: center;
+        text-align: left;
     }
 
     .about-section p {
-        color: rgba(255, 255, 255, 0.74);
+        color: black;
     }
 
 
@@ -87,7 +86,7 @@ body {
 
 @media (min-width: 100px) {
     #affiliations {
-        background-image: url("/bootstrap/img/Seeya.jpg");
+        background-image: url("/bootstrap/img/Kini.jpg");
         height: 800px;
         width: 100%;
         background-position: center;
@@ -102,9 +101,11 @@ body {
 
     .img-fluid {
         float: center;
-        width: 90%;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
+
+
 }
 
 #certificates {
